@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earings</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a0978fe12c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+     
+     
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-warning fixed-top">
+        <img src="https://www.designfreelogoonline.com/wp-content/uploads/2016/07/00319-Free-logo-maker-Jewelry-Logo-Templates-01.png" width="70" height="50" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#"><span>AL-MUSAWAR JEWELERS</span></a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse my-2 my-lg-0 justify-content-e" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-warning font-weight-bold" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning font-weight-bold" href="About.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown bg-dark ">
+              <a class="nav-link dropdown-toggle text-warning font-weight-bold" href="collection.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Collections
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item  text-warning font-weight-bold" href="nacklaces.html">Necklaces</a>
+                <a class="dropdown-item  text-warning font-weight-bold" href="rings.html">Rings</a>
+                <a class="dropdown-item  text-warning font-weight-bold" href="earings.html">Earings</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-warning font-weight-bold" href="contact.html">Contact Us</a>
+            </li>
+          
+          </ul>
+        </div>
+        <span class="navbar-text justify-content-end">
+          
+    
+          <a class="text-warning" href="#"> <img src="https://www.shareicon.net/data/512x512/2016/07/06/105342_contact_512x512.png" class="img-fluid" alt="Responsive image" width="50px" height="50px">&nbsp;<span class="Membership text-warning"> Membership</span></a>&nbsp;&nbsp; 
+      <a class="text-warning" href="#"> <img src="https://f0.pngfuel.com/png/164/964/shopping-cart-computer-icons-bag-shopping-cart-png-clip-art.png" class="img-fluid" alt="Responsive image" width="30px" height="20px">&nbsp;<span class="Membership text-warning">&nbsp; Shop</a>
+
+        </span>
+      
+      </nav>
+      <img src="https://www.miragefinejewelers.com/wp-content/uploads/2018/04/homebanner6-1.jpg" class="img-fluid banner" alt="Responsive image" width="1600PX">
+      <h2 class="container-fluid text-warning text-center   font-weight-bold">(NEW RINGS COLLECTIONS)</h2>
+      <h6 class="container-fluid text-warning   font-weight-bold">(AVAILABLE PRODUCTS)</h6>
+  
+  
+      <div class="container-fluid bg-light  " id="collection">
+       <div class="card" style="width: 18rem;">
+         <img src="data:image/jpeg;base64,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" class="card-img-top" alt="BANGLES" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">RING</h5>
+           <p class="card-text">Rs:20000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://image.made-in-china.com/202f0j00ZnLTfUVaFYzR/Fashion-Simple-Design-18K-Gold-Plated-CZ-Stud-Earrings.webp" class="card-img-top" alt="BRACELET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">D EARING</h5>
+           <p class="card-text">Rs:20000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQCzV1xaoElMRS_hvDZ0WlV0BRcqU3yfHFs1gurGEHJThwJlsbY&usqp=CAU" class="card-img-top" alt="Chain" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">D WALI EARING</h5>
+           <p class="card-text">Rs:15000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://staticimg.titan.co.in/Tanishq/Catalog/513013HVQAAA00_1.jpg" class="card-img-top" alt="LOCKET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">HOOP EARINGS</h5>
+           <p class="card-text">Rs:23000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://www.afashionblog.com/wp-content/uploads/2020/04/Gold_earring_designs.jpg" class="card-img-top" alt="BANGLES" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">SMALL SIZE EARING</h5>
+           <p class="card-text">Rs:20000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmw8iTr8vK_W5xLsR6jx8f7XinrqGb76KJQW4MyTLZD3WAlf6J&usqp=CAU" class="card-img-top" alt="BRACELET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">DIAMOND EARING</h5>
+           <p class="card-text">Rs:150000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://image.made-in-china.com/43f34j00NQqUMGsIYubD/Fashionable-Modern-for-Female-Zircon-Gold-Plated-Hook-Earring.jpg" class="card-img-top" alt="Chain" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">FASHIONABLE MODERN EARING</h5>
+           <p class="card-text">Rs:8000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://www.phupo.com/2019/02/04/top-gold-earrings-designs-2019/gold-earrings-designs-1/" class="card-img-top" alt="LOCKET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">EARINGS</h5>
+           <p class="card-text">Rs:18000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+        
+      
+      </div>
+      <h2 class="container-fluid text-warning text-center  font-weight-bold">(FEATURED PRODUCT)</h2>
+      <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout= "this.start();">
+      <div class="container-fluid " id="collection">
+          
+       <div class="card" style="width: 18rem;">
+         <img src="https://i.ytimg.com/vi/MESb_MswXnU/maxresdefault.jpg" class="card-img-top" alt="BANGLES" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">LATEST EARING</h5>
+           <p class="card-text">Rs:40000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSZTEQBOJBbidjri1tTzczdLzKq0M1s6ugYA-OZXcQktC8qm7u&usqp=CAU" class="card-img-top" alt="BRACELET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">EARING</h5>
+           <p class="card-text">Rs:30000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfg977PJ8aIqsx7vJRIjmcY4fIVejJ-T1hhBH6jB5l1ctrL48-&usqp=CAU" class="card-img-top" alt="Chain" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">MODERN EARING</h5>
+           <p class="card-text">Rs:28000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+   
+       <div class="card" style="width: 18rem;">
+         <img src="https://4.imimg.com/data4/UU/RQ/MY-962287/heavy-gold-plated-ear-rings-250x250.jpg" class="card-img-top" alt="LOCKET" height="290px">
+         <div class="card-body">
+           <h5 class="card-title font-weight-bold text-warning">LATEST EARINGS</h5>
+           <p class="card-text">Rs:30000</p>
+           <a href="#" class="btn btn-warning">Add To Cart</a>
+         </div>
+       </div>
+  
+       
+       </div>
+      </div>
+     </marquee>
+      
+  
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark bg-dark">
+
+  <div style="background-color: #D4AF37;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwEQFaAPGqx9zJ5S1GmMJgQFZdd0-mvl6j-_e890x1Dw_DpF8K&usqp=CAU" class="img-fluid" alt="Responsive image" width="30px" height="30px">
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgk05kLwQjR88dRyrNlObc-gI27YzdoBZevoILk3P1LRs1T9Gp&usqp=CAU" class="img-fluid" alt="Responsive image" width="30px" height="30px">
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7gpj4KIVMN-7L59HbQE1St9Z_-O0nV1r2QNOhYAlZPYFYq8HB&usqp=CAU" class="img-fluid" alt="Responsive image" width="30px" height="30px">
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbf6QM2K53JVM25dCautIhGcYrmKTK308UlH8U7o9iDw7VkZv5&usqp=CAU" class="img-fluid" alt="Responsive image" width="30px" height="30px">
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmxArHLym4sWTfK3pOSXNwfyUdKgKOCX2sCsvcz88I752hp-JB&usqp=CAU" class="img-fluid" alt="Responsive image" width="30px" height="30px">
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+      <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold text-warning">AL-MUSAWAR JEWELERS</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p class="text-warning text-italic">
+          AL-MUSAWAR JEWELERS is a sign of quality work since 1992, we provide our customer good and quality 
+          jewelry golds,  we make all kinds of jewelry itmes cheap price and best quality.
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-warning">COLLECTIONS</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="nacklaces.html" class="text-warning">NACLACES</a>
+        </p>
+        <p>
+            <a href="earings.html" class="text-warning">EARINGS</a>
+          </p>
+        <p>
+          <a href="rings.html" class="text-warning">RINGS</a>
+        </p>
+        
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-warning">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!" class="text-warning">Membership</a>
+        </p>
+        <p>
+          <a href="#!"  class="text-warning">Pure Gold Rate
+
+              <!-- model -->
+              <div class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+          </a>
+        </p>
+        <p>
+          <a href="#!"  class="text-warning">Shipping Rates</a>
+        </p>
+     
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-warning">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p class="text-warning">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQngKWSTPlzPcRSRwGWKWklj5jcMSLqeE0Y0_V3nDGT08ja5UmW&usqp=CAU" class="img-fluid" alt="Responsive image" width="20px" height="20px"> Pakistan, Shahi bazar, Larkana</p>
+        <p class="text-warning">
+          <img src="https://f0.pngfuel.com/png/8/714/yellow-mail-illustration-png-clip-art.png" class="img-fluid" alt="Responsive image"  width="20px" height="20px"> musawir.akhter@gmail.com</p>
+        <p class="text-warning">
+          <img src="https://www.clipartmax.com/png/middle/209-2094248_mobile-phone-free-icon-phone-logo-yellow-png.png" class="img-fluid" alt="Responsive image" width="20px" height="20px"> + 01 234 567 88</p>
+       
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-warning">© 2020 Copyright:
+    <a   class="text-warning"> AL-MUSAWAR JEWELERS</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+      
+     
+      
+
+
+
+    
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+    
+</body>
+</html>

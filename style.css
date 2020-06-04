@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+span{
+    color: #D4AF37 !important;
+    font-weight: bold !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+.Membership,.fa-shopping-cart{
+    font-size: 20px !important;
+}
+.card1{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px !important;
+}
+.card{
+    margin-bottom: 20px !important;
+}
+#banner{
+    height: 400px !important;
+
+}
+.bannerEarings,.banner{
+    margin-top: 80px !important;
+}
+h2{
+    margin-top: 20px !important;
+
+}
+#collection{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+
+
+
+
+
+}
+.TEXT{
+    margin-top: 20px !important;
+}
+.About{
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-bottom:30px;
+}
+#contactus,#contacttxt{
+ margin-right: 220px !important;
+}
